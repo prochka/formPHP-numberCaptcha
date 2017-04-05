@@ -1,4 +1,4 @@
-<?php include "php/mail.php";?>
+<?php include "mail.php";?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,6 +22,7 @@
             <td><?php echo $a. ' + ' .$b. ' = ';?></td>
             <td><input type="text" name="res" /></td>
         </tr>
+        <input type="text" class="spam" value="names" style="display: none;"> //скрытое поле для робота-спамера
         <tr>
             <td colspan="2"><input type="submit" name="submit" value="отправить" /></td>
         </tr> 
